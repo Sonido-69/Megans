@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+body {
+  background-color: black;
+  color: #ff00ff; /* Neon pink */
+  font-family: 'Gagalin', cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4em;
+  color: #ff00ff; /* Neon pink */
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+}
+
+button {
+  background-color: black;
+  border: 2px solid #ff00ff; /* Neon pink */
+  color: #ff00ff; /* Neon pink */
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff00ff; /* Neon pink */
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #ff00ff; /* Neon pink */
+}
